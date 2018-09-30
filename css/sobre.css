@@ -1,0 +1,82 @@
+/* 
+CSS - Projeto: Mirror Fashion (sobre.html)
+*/
+
+body {
+	color: #333333;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	margin-left: auto;
+	margin-right: auto;
+	width: 940px;
+}
+
+p {
+	margin: 0;
+	padding: 0 45px;
+	padding-top: 15px;
+/*	text-indent: 30px;
+    font-family: monospace; */
+	text-align: justify;
+	font-size: 15px;
+}	
+
+h1 + p {
+	text-indent: 0;
+}
+
+h2 {
+	margin-top: 30px;
+  	font-family: sans-serif;
+	border-bottom: 2px solid #333333;
+	background: #F2EDED;
+	font-size: 30px;
+}
+
+p:first-letter {
+	font-weight: bold;
+}
+
+:not(p) + p:first-line {
+	font-variant: small-caps;
+}
+
+.diferencial ul {
+	font-size: 15px;	
+}
+
+figure {
+	padding: 15px;
+	margin: 30px;
+	background-color: #F2EDED;
+    border: 1px solid #ccc;
+    text-align: center; 	
+}
+
+figcaption {
+	margin-top: 10px;
+	font-style: italic;
+}
+
+#centro-distribuicao {
+	margin-left: auto;
+	margin-right: auto;
+	width: 550px;
+}
+
+#familia-pelho {
+	float: right;
+	margin: 0 0 10px 10px;
+}
+
+#rodape {
+	color: #777;
+	margin: 30px 0;
+	padding: 30px 0;
+}
+
+#rodape img {
+	margin-right: 30px;
+	vertical-align: middle;
+	width: 94px;
+}
+	

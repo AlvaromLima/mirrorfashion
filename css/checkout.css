@@ -1,0 +1,12 @@
+/* 
+CSS - Projeto: Mirror Fashion (checkout.php)
+*/
+
+<style>
+	.navbar {
+		margin:0;
+	}
+	.navbar .glyphicon{
+		color: yellow;
+	}
+</style>
